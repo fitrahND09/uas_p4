@@ -7,10 +7,10 @@ const AkunScreen = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.profileContainer}>
         <Image
-          source={{ uri: "https://placeimg.com/140/140/any" }}
+          source={require("../../assets/images/fitrahnaulidalimunte.png")}
           style={styles.profileImage}
         />
-        <Text style={styles.profileName}>Fitrah nauli dalomunte</Text>
+        <Text style={styles.profileName}>Fitrah nauli dalimunte</Text>
 
         <View style={styles.infoCard}>
           <View style={styles.infoRow}>
